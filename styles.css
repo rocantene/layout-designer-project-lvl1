@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/OpenSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Neucha";
+  src: url("assets/fonts/Neucha-Regular.ttf") format("ttf");
+}
+
+:root {
+  --white: #fff;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  font-family: "Neucha", cursive;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 34px;
+}
+header {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+section {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
