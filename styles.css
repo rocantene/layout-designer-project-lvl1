@@ -21,7 +21,6 @@
 }
 * {
   margin: 0;
-  padding: 0;
 }
 body {
   font-size: 16px;
@@ -191,6 +190,31 @@ section {
 
 /* Стили для одинаковых блоков*/
 
+.background_light {
+  background-color: var(--light);
+}
+.background_dark {
+  background-color: var(--brown);
+}
+.background_white {
+  background-color: var(--white);
+}
+.color_white {
+  color: #ffffff;
+}
+.color_brown {
+  color: var(--brown);
+}
+.color_white-dark {
+  color: #d7ccc0;
+}
+.color_translucen {
+  color: var(--translucent-dark);
+}
+.mr-30 {
+  margin-right: 30px;
+}
+
 .block__content {
   position: relative;
 }
@@ -199,9 +223,6 @@ section {
 }
 .block__info {
   margin-top: 100px;
-}
-.block__img {
-  margin-right: 30px;
 }
 .block__img img {
   vertical-align: middle;
@@ -216,15 +237,13 @@ section {
 }
 .block__descr_subtitle {
   font-size: 24px;
-  color: #908d8b;
+  line-height: 28.8px;
 }
 .block__info_title {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
   padding: 5px 0 5px 10px;
-  background-color: var(--brown);
   margin-bottom: 20px;
 }
 .block__info_text {
@@ -239,5 +258,7 @@ section {
 
 .ikea_section {
   position: relative;
-  background-color: var(--light);
+}
+.premature_section {
+  position: relative;
 }
