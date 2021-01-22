@@ -259,3 +259,74 @@ section {
 .block__info_text p {
   width: calc(50% - 15px);
 }
+
+/* Подвал */
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: white;
+  background: var(--basic-dark);
+}
+form > label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+form p {
+  font-size: 12px;
+}
+form p a {
+  color: var(--white);
+}
+input {
+  padding: 15px;
+  width: 370px;
+  border: 0;
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  opacity: 0.2;
+  font-size: 13, 1px;
+}
+input::-moz-placeholder {
+  opacity: 0.2;
+  font-size: 13, 1px;
+}
+
+button {
+  height: 50px;
+  width: 70px;
+  border: 0;
+  background: var(--main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+button::before {
+  content: "";
+  background: url(img/send.svg);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+button:hover {
+  background: #ea7600;
+}
+form div {
+  display: flex;
+}
+.contact {
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.contact p {
+  text-align: center;
+}
+.contact p:nth-child(-n + 2) {
+  margin-bottom: 16px;
+}
