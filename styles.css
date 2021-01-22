@@ -122,4 +122,32 @@ section {
   opacity: 0.6;
 }
 
-/* Стили для section*/
+/* Стили для video section*/
+
+.video_section {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  padding: 0;
+}
+.video_section__title {
+  margin-bottom: 27px;
+}
+.video_section__title + p {
+  margin-bottom: 30px;
+}
+.video {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.video_shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+/* Стили для navigation_section*/
+
+.navigation_section {
+  background-color: var(--basic-dark);
+  height: 500px;
+}
