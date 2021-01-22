@@ -188,17 +188,22 @@ section {
   color: var(--light);
 }
 
-/* Стили для одинаковых блоков*/
-
+/* Классы для заднего фона */
+/* фон */
 .background_light {
   background-color: var(--light);
+  position: relative;
 }
 .background_dark {
   background-color: var(--brown);
+  position: relative;
 }
+
+/* фон для заголовка как проявляется */
 .background_white {
   background-color: var(--white);
 }
+
 .color_white {
   color: #ffffff;
 }
@@ -215,6 +220,7 @@ section {
   margin-right: 30px;
 }
 
+/* Стили для одинаковых блоков*/
 .block__content {
   position: relative;
 }
@@ -252,16 +258,4 @@ section {
 }
 .block__info_text p {
   width: calc(50% - 15px);
-}
-
-/* Стили для ikea_section*/
-
-.ikea_section {
-  position: relative;
-}
-.premature_section {
-  position: relative;
-}
-.distortion_section {
-  position: relative;
 }
