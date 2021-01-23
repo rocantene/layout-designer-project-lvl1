@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,14 +13,14 @@
   </head>
   <body>
     <header class="header background">
-      <div class="container header__content">
-        <h1 class="header__title">
+      <div class="container header-content">
+        <h1 class="header-title">
           <span class="highlight">Когнитивные</span> <br />
           <span class="highlight">искажения</span> <br />в программировании
         </h1>
-        <img class="header__img" src="img/img-header.png" alt="" />
-        <div class="header__text">
-          <div class="header__text_left">
+        <img class="header-img" src="img/img-header.png" alt="" />
+        <div class="header-text">
+          <div class="header-text_left">
             <p>
               Мы, разработчики, часто сталкиваемся с проблемами, которые идут
               вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
@@ -29,7 +29,7 @@
               сожалению, нет.
             </p>
           </div>
-          <dev class="header__text_right">
+          <div class="header-text_right">
             <p>
               Вместе они формируют что-то вроде замкнутого цикла, и это может
               привести к длительной потере продуктивности, багам и бесконечному
@@ -39,34 +39,32 @@
               Если мы сможем минимизировать воздействие одного или нескольких из
               этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
             </p>
-            <a class="header__more" href="#">Подробнее</a>
-          </dev>
+            <a class="header-more" href="#navigation">Подробнее</a>
+          </div>
         </div>
       </div>
     </header>
     <main>
       <section class="video_section">
         <div class="container">
-          <h1 class="video_section__title">
+          <h1 class="video_section-title">
             Что же это такое,<br /><span class="highlight"
               >когнитивные искажения?</span
             >
           </h1>
           <p>Что такое когнитивные искажения. Petrovna Channel</p>
           <iframe
-            class="video video_shadow"
-            class="video"
+            class="video video_shadow video"
             width="919"
             height="569"
             src="https://www.youtube.com/embed/jie9AizBqss"
-            frameborder="0"
             allowfullscreen
           ></iframe>
         </div>
       </section>
-      <section class="navigation_section">
+      <section id="navigation" class="navigation_section">
         <div class="container">
-          <nav class="nav__block">
+          <nav class="nav-block">
             <h2>
               <span class="highlight">5 когнитивных</span> <br />
               <span class="highlight">искажений</span> <br />
@@ -74,7 +72,7 @@
               которых стоит <br />
               помнить
             </h2>
-            <a class="nav__block_itm" href="#ikea">
+            <a class="nav-block_itm" href="#ikea">
               <h3 class="card_number">1</h3>
               <h3 class="card_title highlight">Эффект ИКЕА</h3>
               <p class="card_text">
@@ -82,7 +80,7 @@
                 недооцениваете решения других.
               </p>
             </a>
-            <a class="nav__block_itm" href="#premature-optimization">
+            <a class="nav-block_itm" href="#premature-optimization">
               <h3 class="card_number">2</h3>
               <h3 class="card_title highlight">Преждевременная оптимизация</h3>
               <p class="card_text">
@@ -90,7 +88,7 @@
                 необходимость.
               </p>
             </a>
-            <a class="nav__block_itm" href="#distortion-of-novelty">
+            <a class="nav-block_itm" href="#distortion-of-novelty">
               <h3 class="card_number">3</h3>
               <h3 class="card_title highlight">Преждевременная оптимизация</h3>
               <p class="card_text">
@@ -98,7 +96,7 @@
                 недавно, и недооцениваете более старые.
               </p>
             </a>
-            <a class="nav__block_itm" href="#hyperbolic-depreciation">
+            <a class="nav-block_itm" href="#hyperbolic-depreciation">
               <h3 class="card_number">4</h3>
               <h3 class="card_title highlight">
                 Гиперболическое обесценивание
@@ -108,7 +106,7 @@
                 крупную, недоступную сейчас, но доступную в будущем.
               </p>
             </a>
-            <a class="nav__block_itm" href="#errors-in-planning">
+            <a class="nav-block_itm" href="#errors-in-planning">
               <h3 class="card_number">5</h3>
               <h3 class="card_title highlight">Ошибка планирования</h3>
               <p class="card_text">
@@ -120,27 +118,27 @@
         </div>
       </section>
       <section id="ikea" class="background background_light">
-        <div class="container block__content">
-          <div class="block__title">
-            <div class="block__img mr-30">
+        <div class="container block-content">
+          <div class="block-title">
+            <div class="block-img mr-30">
               <img src="img/img-ikea-effect.png" alt="Фото эффект ИКЕА" />
             </div>
-            <div class="block__descr">
-              <p class="block__descr_subtitle color_translucen">
+            <div class="block-descr">
+              <p class="block-descr_subtitle color_translucen">
                 Когнитивные искажения
               </p>
-              <h2 class="block__descr_title">Эффект ИКЕА</h2>
+              <h2 class="block-descr_title">Эффект ИКЕА</h2>
               <p>
                 Вы переоцениваете собственные решения, и, как следствие,
                 недооцениваете решения других.
               </p>
             </div>
           </div>
-          <div class="block__info">
-            <h3 class="block__info_title background_dark color_white">
+          <div class="block-info">
+            <h3 class="block-info_title background_dark color_white">
               КАК ПРОЯВЛЯЕТСЯ
             </h3>
-            <div class="block__info_text">
+            <div class="block-info_text">
               <p>
                 Когнитивное искажение называется так из-за того, что потребители
                 зачастую предпочитают покупать товары, которые они могут собрать
@@ -157,28 +155,28 @@
         </div>
       </section>
       <section id="premature-optimization" class="background background_dark">
-        <div class="container block__content">
-          <div class="block__title color_white">
-            <div class="block__descr">
-              <p class="block__descr_subtitle">Когнитивные искажения</p>
-              <h2 class="block__descr_title">Преждевременная оптимизация</h2>
+        <div class="container block-content">
+          <div class="block-title color_white">
+            <div class="block-descr">
+              <p class="block-descr_subtitle">Когнитивные искажения</p>
+              <h2 class="block-descr_title">Преждевременная оптимизация</h2>
               <p>
                 Вы оптимизируете что-то задолго до того, как в этом появляется
                 необходимость.
               </p>
             </div>
-            <div class="block__img">
+            <div class="block-img">
               <img
                 src="img/img-premature-optimization.png"
                 alt="Фото преждевременная оптимизация"
               />
             </div>
           </div>
-          <div class="block__info">
-            <h3 class="block__info_title background_white color_brown">
+          <div class="block-info">
+            <h3 class="block-info_title background_white color_brown">
               КАК ПРОЯВЛЯЕТСЯ
             </h3>
-            <div class="block__info_text color_white">
+            <div class="block-info_text color_white">
               <p>
                 Если вы добавите аэродинамический спойлер к своему старому
                 автомобилю вместо ремонта мотора, то автомобиль не станет
@@ -194,30 +192,30 @@
         </div>
       </section>
       <section id="distortion-of-novelty" class="background background_light">
-        <div class="container block__content">
-          <div class="block__title">
-            <div class="block__img mr-30">
+        <div class="container block-content">
+          <div class="block-title">
+            <div class="block-img mr-30">
               <img
                 src="img/img-distortion-of-novelty.png"
                 alt="Фото искажение новизны"
               />
             </div>
-            <div class="block__descr">
-              <p class="block__descr_subtitle color_translucen">
+            <div class="block-descr">
+              <p class="block-descr_subtitle color_translucen">
                 Когнитивные искажения
               </p>
-              <h2 class="block__descr_title">Искажение новизны</h2>
+              <h2 class="block-descr_title">Искажение новизны</h2>
               <p>
                 Вы даёте более высокую оценку тем событиям, которые произошли
                 недавно, и недооцениваете более старые.
               </p>
             </div>
           </div>
-          <div class="block__info">
-            <h3 class="block__info_title background_dark color_white">
+          <div class="block-info">
+            <h3 class="block-info_title background_dark color_white">
               КАК ПРОЯВЛЯЕТСЯ
             </h3>
-            <div class="block__info_text">
+            <div class="block-info_text">
               <p>
                 Часто это искажение настигает нас, когда нужно решение проблемы
                 и… о! Мы как раз только что решили подобную проблему! Давайте
@@ -234,29 +232,29 @@
         </div>
       </section>
       <section id="hyperbolic-depreciation" class="background background_dark">
-        <div class="container block__content">
-          <div class="block__title color_white">
-            <div class="block__descr">
-              <p class="block__descr_subtitle">Когнитивные искажения</p>
-              <h2 class="block__descr_title">Гиперболическое обесценивание</h2>
+        <div class="container block-content">
+          <div class="block-title color_white">
+            <div class="block-descr">
+              <p class="block-descr_subtitle">Когнитивные искажения</p>
+              <h2 class="block-descr_title">Гиперболическое обесценивание</h2>
               <p>
                 Вы гонитесь за немедленной маленькой выгодой и игнорируете более
                 крупную, недоступную сейчас, но доступную в будущем.
               </p>
             </div>
 
-            <div class="block__img">
+            <div class="block-img">
               <img
                 src="img/img-hyperbolic-depreciation.png"
                 alt="Фото гиперболическое обесценивание"
               />
             </div>
           </div>
-          <div class="block__info">
-            <h3 class="block__info_title background_white color_brown">
+          <div class="block-info">
+            <h3 class="block-info_title background_white color_brown">
               КАК ПРОЯВЛЯЕТСЯ
             </h3>
-            <div class="block__info_text color_white">
+            <div class="block-info_text color_white">
               <p>
                 Вы когда-нибудь откладывали написание теста? Ловили себя на
                 использовании клавиш-стрелок в Vim? Поздравляю, у вас
@@ -274,30 +272,30 @@
         </div>
       </section>
       <section id="errors-in-planning" class="background background_light">
-        <div class="container block__content">
-          <div class="block__title">
-            <div class="block__img mr-30">
+        <div class="container block-content">
+          <div class="block-title">
+            <div class="block-img mr-30">
               <img
                 src="img/img-planning-error.png"
                 alt="Фото ошибка планирования"
               />
             </div>
-            <div class="block__descr">
-              <p class="block__descr_subtitle color_translucen">
+            <div class="block-descr">
+              <p class="block-descr_subtitle color_translucen">
                 Когнитивные искажения
               </p>
-              <h2 class="block__descr_title">Ошибка планирования</h2>
+              <h2 class="block-descr_title">Ошибка планирования</h2>
               <p>
                 Неправильно рассчитывать время необходимое для завершения
                 задачи.
               </p>
             </div>
           </div>
-          <div class="block__info">
-            <h3 class="block__info_title background_dark color_white">
+          <div class="block-info">
+            <h3 class="block-info_title background_dark color_white">
               КАК ПРОЯВЛЯЕТСЯ
             </h3>
-            <div class="block__info_text">
+            <div class="block-info_text">
               <p>
                 Одно из искажений, которое должно признать большинство из нас. И
                 менеджеры проекта, и сами пользователи продукта — все склонны
@@ -336,7 +334,7 @@
           </form>
         </div>
         <div class="contact">
-          <p>© 2020 Константин Константинопольский</p>
+          <p>© 2021 Данила Курганов</p>
           <p>
             По материалам статьи
             <a href="#">Yash Ranadive Cognitive Biases in Programming</a>
