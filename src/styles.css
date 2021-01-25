@@ -236,6 +236,7 @@ section {
 }
 .block-img img {
   vertical-align: middle;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 .block-descr {
   font-family: "Neucha";
@@ -267,13 +268,13 @@ section {
 
 /* Подвал */
 footer {
-  padding: 100px 0;
+  padding: 100px 0 110px 0;
 }
 .feedback {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 55px;
+  padding: 38px 55px 55px 55px;
   margin-bottom: 60px;
   color: white;
   background: var(--basic-dark);
