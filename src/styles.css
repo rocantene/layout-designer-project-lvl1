@@ -127,7 +127,7 @@ section {
   height: 805px;
 }
 .video_section-title {
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   color: var(--dark);
 }
 .video_section-title + p {
