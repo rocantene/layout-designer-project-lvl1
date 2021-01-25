@@ -90,6 +90,7 @@ section {
   height: 525px;
 }
 .header-text {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
@@ -105,13 +106,15 @@ section {
 }
 .header-more {
   text-decoration: none;
+  text-transform: uppercase;
   display: block;
-  width: fit-content;
+  width: 148px;
   color: #fff;
   font-weight: bold;
   background: #fe8a02;
-  padding: 10px 25px 10px 25px;
+  padding: 11px 24px 12px 23px;
   margin-top: 40px;
+  line-height: 25, 6px;
 }
 .header-more:hover {
   background: #ea7600;
@@ -136,6 +139,7 @@ section {
 }
 .video_shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  border: 0;
 }
 
 /* Стили для navigation_section*/
@@ -157,7 +161,7 @@ section {
 .nav-block_itm {
   text-decoration: none;
   color: inherit;
-  width: 302px;
+  width: 350px;
   padding: 24px;
   background-color: var(--light);
 }
