@@ -21,6 +21,7 @@
 }
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-size: 16px;
@@ -51,13 +52,14 @@ section {
 /* Стили для Шапки */
 
 .header {
-  background-color: var(--light);
   position: relative;
   overflow: hidden;
+  height: 915px;
 }
 .container {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 .background::before {
@@ -68,40 +70,38 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
-  top: 0;
+  opacity: 10%;
 }
 .header-content {
   position: relative;
-  padding-top: 100px;
+  height: 451px;
 }
 .header-title {
-  position: relative;
-  margin-bottom: 215px;
   z-index: 2;
+  position: relative;
 }
 .highlight {
   color: var(--main);
 }
 .header-img {
   position: absolute;
-  top: 55px;
+  top: -45px;
   right: -270px;
   height: 525px;
 }
 .header-text {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .header-text_left {
-  padding-right: 30px;
-  width: 50%;
+  width: 540px;
 }
 .header-text_right {
-  width: 50%;
+  width: 540px;
 }
 .header-text_right > p:nth-child(2) {
-  margin-top: 15px;
+  margin-top: 1em;
 }
 .header-more {
   text-decoration: none;
@@ -111,7 +111,6 @@ section {
   font-weight: bold;
   background: #fe8a02;
   padding: 10px 25px 10px 25px;
-  margin-bottom: 100px;
   margin-top: 40px;
 }
 .header-more:hover {
@@ -192,11 +191,9 @@ section {
 /* фон */
 .background_light {
   background-color: var(--light);
-  position: relative;
 }
 .background_dark {
   background-color: var(--brown);
-  position: relative;
 }
 
 /* фон для заголовка как проявляется */
