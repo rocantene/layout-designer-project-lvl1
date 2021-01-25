@@ -46,7 +46,6 @@ h3 {
   font-size: 34px;
 }
 section {
-  position: relative;
 }
 
 /* Стили для Шапки */
@@ -193,9 +192,11 @@ section {
 /* фон */
 .background_light {
   background-color: var(--light);
+  position: relative;
 }
 .background_dark {
   background-color: var(--brown);
+  position: relative;
 }
 
 /* фон для заголовка как проявляется */
