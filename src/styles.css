@@ -41,6 +41,7 @@ h1 {
 }
 h2 {
   font-size: 60px;
+  color: var(--main);
 }
 h3 {
   font-size: 34px;
@@ -127,6 +128,7 @@ section {
 }
 .video_section-title {
   margin-bottom: 27px;
+  color: var(--dark);
 }
 .video_section-title + p {
   margin-bottom: 30px;
@@ -215,6 +217,9 @@ section {
 }
 .color_white-dark {
   color: #d7ccc0;
+}
+.color-black {
+  color: var(--dark);
 }
 .color_translucen {
   color: var(--translucent-dark);
@@ -335,4 +340,7 @@ form div {
 }
 .contact p:nth-child(-n + 2) {
   margin-bottom: 16px;
+}
+ul {
+  margin: 9px 0 17px 40px;
 }
