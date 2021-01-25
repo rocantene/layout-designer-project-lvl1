@@ -136,6 +136,8 @@ section {
 .video {
   margin-bottom: 200px;
   border: 0;
+  display: flex;
+  margin: 0 auto;
 }
 .video_shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
