@@ -46,7 +46,7 @@ h3 {
   font-size: 34px;
 }
 section {
-  /* padding: 100px 0; */
+  position: relative;
 }
 
 /* Стили для Шапки */
@@ -206,6 +206,9 @@ section {
 .color_white {
   color: #ffffff;
 }
+.color-brown {
+  color: #d7ccc0;
+}
 .color_brown {
   color: var(--brown);
 }
@@ -225,6 +228,7 @@ section {
 }
 .block-title {
   display: flex;
+  justify-content: space-between;
 }
 .block-info {
   margin-top: 100px;
@@ -236,6 +240,7 @@ section {
   font-family: "Neucha";
   font-size: 34px;
   line-height: 40.8px;
+  width: 502px;
 }
 .block-descr_title {
   margin-bottom: 30px;
