@@ -20,10 +20,11 @@ body {
 
   color: var(--color-dark);
 
+  overflow-x: hidden;
+
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 
-  overflow-x: hidden;
   line-height: 1.6em;
 
   counter-reset: navigation;
@@ -143,6 +144,7 @@ header img {
 
 .nav-content h2 {
   flex: 1 1 0%;
+
   font-size: 52px;
 }
 
@@ -285,11 +287,13 @@ header img {
 
 .form-input::-webkit-input-placeholder {
   font-size: 13, 1px;
+
   opacity: 0.2;
 }
 
 .form-input::-moz-placeholder {
   font-size: 13, 1px;
+
   opacity: 0.2;
 }
 
@@ -337,16 +341,21 @@ header img {
 
 .container {
   position: relative;
+
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+
   column-gap: 30px;
 }
+
 .content {
   display: flex;
   flex-wrap: wrap;
+
   column-gap: 30px;
 }
+
 .section-title {
   margin: 0 0 30px;
 }
