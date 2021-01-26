@@ -107,7 +107,7 @@ header img {
 }
 
 .background-image::before {
-  background-image: url("img/background.png");
+  background-image: url("../img/background.png");
 }
 
 .background-color-light::after {
@@ -306,7 +306,7 @@ header img {
   margin-top: -12px;
   margin-left: -12px;
 
-  background-image: url("img/send.svg");
+  background-image: url("../img/send.svg");
 
   content: "";
 }
