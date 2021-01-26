@@ -22,9 +22,10 @@ body {
 
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  line-height: 1.6em;
 
   overflow-x: hidden;
+  line-height: 1.6em;
+
   counter-reset: navigation;
 }
 
@@ -135,13 +136,16 @@ header img {
   display: flex;
 
   flex-wrap: wrap;
+
   column-gap: 30px;
   row-gap: 20px;
 }
+
 .nav-content h2 {
-  font-size: 52px;
   flex: 1 1 0%;
+  font-size: 52px;
 }
+
 /* Button */
 
 .button {
@@ -246,11 +250,13 @@ header img {
 
 .feedback {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 40px 55px;
+
   background-color: var(--color-main-dark);
 }
+
 .form-label {
   display: block;
   margin: 0 0 10px;
@@ -272,16 +278,19 @@ header img {
   height: 50px;
   margin-right: 62px;
   padding: 15px;
-  outline: none;
+
   border: 0;
+  outline: none;
 }
+
 .form-input::-webkit-input-placeholder {
-  opacity: 0.2;
   font-size: 13, 1px;
+  opacity: 0.2;
 }
+
 .form-input::-moz-placeholder {
-  opacity: 0.2;
   font-size: 13, 1px;
+  opacity: 0.2;
 }
 
 .form-submit {
@@ -292,9 +301,8 @@ header img {
   width: 62px;
   height: 50px;
 
-  border: 0;
-
   background-color: var(--color-main);
+  border: 0;
 
   cursor: pointer;
 
